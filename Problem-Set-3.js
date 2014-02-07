@@ -27,3 +27,18 @@ var dashInsert = function(num) {
 	var z = y.join("");
 	console.log(z);
 };
+
+var caesar = function(input) {
+	var x = [];
+	var y = [];
+	for (var i = 0; i < input.length; i++) {
+		x.push(input.charCodeAt(i)+2);
+	}
+	console.log(x);
+	for (var j = 0; j < x.length; j++) {
+		y.push(String.fromCharCode(x[j]));
+	}
+	console.log(y);
+	var z = y.join();
+	console.log(z);
+};
