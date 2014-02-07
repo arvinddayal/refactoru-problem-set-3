@@ -16,7 +16,7 @@ var dashInsert = function(num) {
 		x.push(+strNum.charAt(i));
 	}
 	console.log(x);
-	for (var j = 0; j < x.length; j++) {
+	for (var j = 0; j < x.length -1; j++) {
 		if (x[j]%2 !== 0 && x[j+1]%2 !== 0) {
 			y.push(x[j]+"-");
 		}
